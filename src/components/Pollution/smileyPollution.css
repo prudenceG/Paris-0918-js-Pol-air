@@ -1,0 +1,19 @@
+.smiley-main {
+    border: 1px solid rgba(0, 0, 0 0);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.smiley-solo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.MeteoSolo-index{
+    width: 50px;
+}
+.img-smiley{
+    width: 50px;
+}

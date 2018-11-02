@@ -1,0 +1,46 @@
+.indice-pollution-main {
+    border: 1px solid rgba(0, 0, 0 0);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: inline-table;
+}
+.color-meteoJour{
+  background-color:#3f51b5;
+}
+.indice-pollution-solo {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.indice-meteo-solo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.degre-index{
+  font-size: 20px;
+}
+.solo-tres-faible{
+   background-color:#79BC6A
+}
+.solo-faible{
+   background-color: #BBCF4C
+}
+.solo-moyen{
+  background-color: #EEC20B
+}
+.solo-eleve{
+  background-color: #F29305
+}
+.solo-tres-eleve{
+   background-color:#960018
+}

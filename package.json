@@ -5,9 +5,15 @@
   "dependencies": {
     "@material-ui/core": "^3.1.1",
     "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "chartjs": "^0.3.24",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.5.2",
+    "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5"
   },
   "scripts": {

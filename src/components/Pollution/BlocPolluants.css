@@ -1,0 +1,20 @@
+.bloc-polluants {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.polluants{
+    padding: 20px 0 20px 0;
+}
+.buttons-polluants{
+    display: flex;
+    justify-content: center;
+}
+.buttons-polluants button{
+    margin: 0 5px 0 5px;
+}
+/* @media all and (min-width: 769px){
+    .display-none-hr{
+        display: none;
+    }
+} */

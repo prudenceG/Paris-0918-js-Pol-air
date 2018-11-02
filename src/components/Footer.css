@@ -1,12 +1,44 @@
+.container-footer{
+    background-color: #3f51b5;
+    padding-bottom: 2%;
+    width: 100%;
+}
 .list-footer li {
     list-style-type: none;
     margin: 5px;
 }
 .list-footer a {
     text-decoration: none;
+    color: white;
+    font-size : 14px;
+    transition: all 0.3s ease;
 }
+
+.list-footer a:hover {
+    color: black;
+}
+
 .list-footer {
-    background: rgb(220, 220, 220);
     padding: 20px 0 20px 0;
     text-align: center;
+    margin: 0;
+}
+
+.copyright{
+    color: white;
+    font-size : 13px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.group-avatar{
+    margin: 0 0 5px 0;
+
+}
+.avatar {
+    background-image: url("../img/GitHub-Mark-32px.png");
+    background-repeat: round;
+    margin-right: 4px;
+}
+.avatar2:hover {
+    opacity: 0;
 }
