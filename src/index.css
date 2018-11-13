@@ -25,9 +25,20 @@ code {
   word-wrap: break-word;
   text-shadow: 0.05em 0.05em 0.05em darkgray;
 }
+.city-all-pages-small-font {
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(10px + 3vw);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  color: white;
+  width: 50vw;
+  word-wrap: break-word;
+  text-shadow: 0.05em 0.05em 0.05em darkgray;
+}
 .date-all-page {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: calc(15px + 1vw);
   font-weight: 600;
   text-align: right;
   color: white;
@@ -36,8 +47,9 @@ code {
 }
 .comment-all-page {
   font-family: 'Open Sans', sans-serif;
-  font-size: 28px;
+  font-size: calc(10px + 3vw);
   font-weight: 400;
+  text-transform: capitalize;
   text-align: right;
   color: white;
   margin: 25px 0 5px 0;
@@ -47,6 +59,9 @@ code {
 
 @media all and (min-width:426px){
   .city-all-pages{
+    width: 100%;
+  }
+  .city-all-pages-small-font{
     width: 100%;
   }
 }

@@ -17,7 +17,7 @@ class DateForcastMeteo extends Component {
         let result = new Date();
         result.setDate(result.getDate() + this.props.dateApp);
         return ( 
-            <div>
+            <div className="date-forecast">
                 <div className='MeteoDate'>{formatDate(result)}</div> 
             </div>
          );

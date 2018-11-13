@@ -1,3 +1,10 @@
-.bloc-conseilHistorique {
-    background-color: white;
+.bloc-conseil-historique{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+@media all and (min-width: 900px){
+    .bloc-pollution{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 15%;
+    }
 }

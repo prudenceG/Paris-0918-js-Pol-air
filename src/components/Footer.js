@@ -15,7 +15,6 @@ class Footer extends Component {
             <li><Button color="primary" component={Link} to="/">Accueil</Button></li>
             <li><Button color="primary" component={Link} to="/BlockForcastMeteo">Prévisions météo</Button></li>
             <li><Button color="primary" component={Link} to="/HistoriquePollution">Historique pollution</Button></li>
-            <li><Button color="primary" component={Link} to="">Itinéraire</Button></li>
           </ul>
 
 

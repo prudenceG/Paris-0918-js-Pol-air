@@ -37,7 +37,6 @@ class OpenMenu extends React.Component {
         <ListItem component={this.props.openAccueil} button>Accueil</ListItem>
         <ListItem component={this.props.openForeCastMeteo} button>Prévisions météo</ListItem>
         <ListItem component ={this.props.openHistoriquePollution} button>Historique pollution</ListItem>
-        <ListItem button>Itinéraire</ListItem>
       </div>
     );
 

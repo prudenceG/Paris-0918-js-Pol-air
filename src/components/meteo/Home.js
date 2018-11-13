@@ -11,9 +11,23 @@ import './home.css';
 
 
 class Home extends Component {
-    state = {  }
+    state = { 
+
+     }
     componentDidMount() {
         window.scrollTo(0, 0)
+    
+    }
+
+    getClasseName(){
+
+    if(this.props.city !== undefined && this.props.city.length >9 )
+     
+        return "-small-font"
+    else
+        return ""
+   
+
     }
     render() { 
         return ( 
@@ -29,7 +43,7 @@ class Home extends Component {
                             <Grid item container xs={7} md={8} direction="column" justify="space-around" align='right' alignItems="flex-end" className="main-main"> {/*Container city + date + description*/}
                                     <div className="bloc-city-date">
                                         <div className="bloc-city">
-                                            <div className="city-all-pages">{this.props.city}</div>
+                                            <div className={`city-all-pages${this.getClasseName()}`}>{this.props.city}</div>
                                         </div>
                                         <div className="date-all-page"><DateIndex /></div>
                                     </div>

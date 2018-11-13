@@ -13,7 +13,7 @@ const BlockForecastMeteoNow = (props) => {
                 </div>
             </div>
         </Grid>
-        <Grid item xs={7} md={9} >
+        <Grid item xs={7} md={9} align='right'>
             <div>
                 <div className="city-all-pages city-meteo" >{props.city}</div>
                 <div className="date-all-page" >Aujourd'hui</div>

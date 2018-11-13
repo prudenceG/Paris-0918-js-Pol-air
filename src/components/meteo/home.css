@@ -20,7 +20,7 @@
     border-radius: 1em;
 }
 .main-main{
-    padding-right: 4vw;
+    padding-right: calc(10px + 4vw);
 }
 .bloc-city{
     width: 100%;
@@ -31,10 +31,9 @@
 .blocPolAir{
     padding: 10px 0 10px 0;
 }
-@media all and (max-width: 370px){
+@media all and (max-width: 380px){
     .mascotte-border img{
         width: 100%;
-        
     }
 }
 @media all and (max-width: 960px){

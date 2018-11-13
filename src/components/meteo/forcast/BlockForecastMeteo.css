@@ -2,14 +2,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
-    background-color: white;
+    padding: 15px;
 }
 .today-bloc-meteo {
     padding: 30px 20px 30px 20px;
     background-color: rgba(255, 255, 255, 0.4);
     max-width: 100%;
 }
+.back-blockMeteo{
+    background-color: rgba(255, 255, 255, 0.8)
+}
+.hr-meteo{
+    margin: 0 40px;
+}
+
 .city-meteo{
     text-align: right;
 }
@@ -33,8 +39,48 @@
 }
 .MeteoDate{
     color: black;
+    font-size: calc(10px + 1vw);
 }
-
+.date-forecast{
+    width: 33%;
+    text-align: center;
+    /* width: calc(90px + 4vw); */
+}
 .MeteoIcon{
-    width: 50%;
+    width: calc(30px + 2vw);
+}
+.icon-forecast{
+    text-align: center;
+    width: 33%;
+    text-align: center;
+    /* width: calc(30px + 2vw); */
+
+}
+.temp-forecast {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.temp-forecast-max{
+    font-size: calc(15px + 1vw);
+    /* margin-right: calc(10px + 1vw); */
+}
+.temp-forecast-min{
+    font-size: calc(10px + 1vw);
+    color: rgb(50, 50, 50);
+}
+.sep-forecast {
+    height: 20px;
+    width: 2px;
+    background-color: rgb(200, 200, 200);
+    margin: 0 calc(5px + 1vw);
+}
+@media all and (min-width: 900px){
+    .bloc-page-meteo{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 15%;
+    }
 }
