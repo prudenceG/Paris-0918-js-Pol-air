@@ -51,15 +51,7 @@ const api_Key_Current_Weather = "588b34ef0ccd1ce25e0cd600e9e852fb";
 //588b34ef0ccd1ce25e0cd600e9e852fb -- clef de Delph
 //0f53c26a9c88a54d8706c8b3c9d2b880 -- clef de quelqu'un
 
-const api_Key_Current_Pol = "Wu8scKsgzFQ8Md6Jv";
-// AgM8MuxtXNcfwPrHN -- clef guillaume
-// ehvBN549ec3xDmbbW -- clef prudence
-// fJ75xRvQChZAzF7qo -- clef Delph
-// Wu8scKsgzFQ8Md6Jv -- Clef Samir
-// 5tzeyxRv5omhmxG6P -- Clef paolo1
-// K7ozT4wzfP89xvNDj -- Clef paolo2 
-// FSirY4x7sshw6meaw -- Clef paolo3
-
+const api_Key_Current_Pol = "2950829b-1789-4338-a9e9-3d579758a2a2";
 
 //Api Forecast
 
