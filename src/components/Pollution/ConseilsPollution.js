@@ -129,8 +129,6 @@ class ConseilsPagePollution extends Component {
     }
     render() { 
         const adviseDefault = this.state.adviseDefault ? this.getConseilsPieton() : ""
-        const adviseDefaultCyclo = this.state.adviseCyclo ? this.getAdviseCyclo() : ""
-        const adviseDefaultHouse = this.state.adviseHouse ? this.getAdviseHouse() : ""
         return ( 
             <div className="bloc-conseils">
                 <div className="icon-conseils">
@@ -139,7 +137,7 @@ class ConseilsPagePollution extends Component {
                     <div className={this.getCssAdviseIconHouse()} ><a onClick={this.handleClickHouse}><ButtonConseilHouse/></a></div>
                 </div>
                 <div className="conseil-blocConseil"> 
-                    <p>{adviseDefault}{adviseDefaultCyclo}{adviseDefaultHouse}</p>
+                    <p>{adviseDefault}{this.state.adviseCyclo}{this.state.adviseHouse}</p>
                 </div>
             </div>
          );
