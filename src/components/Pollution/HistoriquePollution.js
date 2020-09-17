@@ -6,7 +6,7 @@ import './HistoriquePollution.css'
 
 
 ///declaration de varriables globales
-const url = 'https://services8.arcgis.com/gtmasQsdfwbDAQSQ/arcgis/rest/services/ind_idf_agglo/FeatureServer/0/query?where=1%3D1&outFields=date_echea,valeur,qualificat&returnGeometry=false&outSR=4326&f=json'
+const url = 'https://services8.arcgis.com/gtmasQsdfwbDAQSQ/arcgis/rest/services/ind_idf_agglo/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
 let myDates = [];
 let myLabel = [];
 let myData  = [];
@@ -31,7 +31,9 @@ class HistoriquePollution extends Component {
     GetChartData = async (e) => {
         const call = await fetch(url)
         allData = await call.json()
-        allData =allData.features.sort(function(a,b){return a.attributes.date_echea - b.attributes.date_echea})   
+        allData = !allData.error && allData.features.sort((a,b) => {
+            return a.attributes.date_ech - b.attributes.date_ech
+        })   
         this.GetYear(); 
     }
 
@@ -51,11 +53,12 @@ class HistoriquePollution extends Component {
         let yellowZone =[];
         let orangeZone =[];
         let redZone =[];
-        
-        allData.map(element =>{
-            let date  = new Date(element.attributes.date_echea)
+
+        allData && allData.map(element => {
+            let date  = new Date(element.attributes.date_ech)
             myLabel.push(date.toLocaleDateString('fr'));
-            myData.push(element.attributes.valeur); 
+            myData.push(element.attributes.valeur);
+            
             return element;
            })
            /**

@@ -55,7 +55,7 @@ const api_Key_Current_Pol = "2950829b-1789-4338-a9e9-3d579758a2a2";
 
 //Api Forecast
 
-const key = "588b34ef0ccd1ce25e0cd600e9e852fb"
+const key = api_Key_Current_Weather;
 const unit = 'metric'
 const lang = 'fr'
 const url = 'https://api.openweathermap.org/data/2.5/forecast?q='
